@@ -49,5 +49,5 @@ pnpm lint
 # Наш проект
 
 Участники:
-- kochetov yaroslav: Разработчик, отвечает за vse.
-- berezan roman: tolko meshaetsa.
+- Кочетов Ярослав: Разработчик, отвечает за фрондэнд.
+- Березань Роман: Отвечает за GitHub Pages and actions(развертывание приложения).
