@@ -41,11 +41,10 @@ function editTodo(): void {
       @update:checked="todoListStore.toggleFulfilled(todo.id, fulfilled)"
     />
 
-    <!--    TODO сделать валидацию-->
     <n-input
       class="mx-5"
       :disabled="isDisabled"
-      :status="hasError ? 'error' : ''"
+      :status="(hasError ? 'error'  : '') as any"
       v-model:value="description"
       @keydown.enter.prevent="editTodo"
       placeholder="Описание задачи"
